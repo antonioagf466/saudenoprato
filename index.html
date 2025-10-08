@@ -4,15 +4,130 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saude no Prato</title>
-    <link rel="stylesheet" href="vendors/css/node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <!-- Importacao fonte Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="resources/css/index.css">
-
+    <title>Saúde no Prato</title>
 </head>
 <body>
-    <h1>Poggers</h1>
+    <header>
+        <nav>
+            <ion-icon name="fast-food"></ion-icon>
+            <ul>
+                <li><a href="#info">Informações</a></li>
+                <li><a href="#dishes">Pratos</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#footer">Encomendas</a></li>
+            </ul>
+        </nav>
+        <div class="slogan">
+            <h1>Adeus fastfood do mal. <br>
+                Olá comida saúdavel.
+            </h1>
+            <a href="#" class="btn btn-full">Comprar agora</a>
+            <a href="#" class="btn">Mais informações</a>
+        </div>
+    </header>
+    <section class="section-information" id="info">
+        <div class="info-top">
+            <h2>
+                Solução rápida e saúdavel
+                &mdash;
+                não apenas rápida.
+            </h2>
+            <p> Nós da saúde no prato queremos prover a você uma experiência incrivelmente deliciosa e saudável. 
+                Pois entendemos que nem todo mundo tem tempo suficiente ou interesse em cozinhar, mas não é por 
+                isso que as pessoas devem deixar de se alimentar bem.</p>
+        </div>
+        <div class="info-bottom">
+            <div>
+                <ion-icon name="infinite"></ion-icon>
+                <h3>Aberto 365 dias</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero veniam molestiae amet minima illo culpa cumque, tempore cupiditate sapiente nostrum nobis iusto ea reprehenderit velit itaque non eligendi! Placeat, iste!</p>
+            </div>
+            <div>
+                <ion-icon name="stopwatch-outline"></ion-icon>
+                <h3>Pronto em 15 min.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum mollitia maxime vel ea assumenda. Quia provident voluptas sapiente blanditiis, nihil minus! A facere enim, reiciendis sit voluptate totam aut?</p>
+            </div>
+            <div>
+                <ion-icon name="leaf-outline"></ion-icon>
+                <h3>100% organico</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia maiores enim ea dolores, ex distinctio iusto optio quae rerum dolore, saepe corporis voluptates ullam, quaerat expedita. Officia repellat laboriosam eveniet.</p>
+            </div>
+            <div>
+                <ion-icon name="card"></ion-icon>
+                <h3>Aceitamos cartões</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem reiciendis aliquam vel a delectus cupiditate voluptas, asperiores numquam cum maiores sunt ex! Dolorum eum officia quos non ea incidunt odit.</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="section-gallery">
+        <ul>
+            <li>
+                <figure><img src="resources/img/1.jpg" alt="Pizza vegana"></figure>
+            </li>
+            <li>
+                <figure><img src="resources/img/2.jpg" alt="Omelete com legumes"></figure>
+            </li>
+            <li>
+                <figure><img src="resources/img/3.jpg" alt="Panqueca de banana e mel"></figure>
+            </li>
+            <li>
+                <figure><img src="resources/img/4.jpg" alt="Suco de melão"></figure>
+            </li>
+            <li>
+                <figure><img src="resources/img/5.jpg" alt="Salmão grelhado"></figure>
+            </li>
+            <li>
+                <figure><img src="resources/img/6.jpg" alt="Pasta de alho"></figure>
+            </li>
+            <li>
+                <figure><img src="resources/img/7.jpg" alt="Croissant"></figure>
+            </li>
+            <li>
+                <figure><img src="resources/img/8.jpg" alt="Peito de frango ao pesto"></figure>
+            </li>
+        </ul>
+    </section>
+    <section class="section-pictures">
+        <figure>
+            <img src="resources/img/1.jpg" alt="Pizza vegana">
+            <img src="resources/img/5.jpg" alt="Salmão grelhado">
+            <img src="resources/img/7.jpg" alt="Croissant">
+            <img src="resources/img/2.jpg" alt="Omelete com legumes">
+            <img src="resources/img/6.jpg" alt="Pasta de alho">
+        </figure>
+    </section>
+    <footer>
+        <div class="footer-top">
+            <nav>
+                <ul>
+                    <li><a href="#">Pratos</a></li>
+                    <li><a href="#">Informações</a></li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a href="#">Encomendas</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            <p>
+                Olá
+            </p>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

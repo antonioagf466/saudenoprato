@@ -1,4 +1,2 @@
-# Projeto Saúde no Prato
-Projeto desenvolvido na aula da disciplina Desenvolvimento Web para dispositivos moveis
-
-
+# Projeto Saude no prato / 
+Projeto para diciplina de Densenvolvimento Web para Dispositivos Moveis.
