@@ -1,5 +1,8 @@
 /**** Basic configs ****/
-
+:root{
+    --laranja: #cf6d17;
+    --laranja-claro:#e67e22;
+}
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +17,7 @@ html{
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
 
 }
 
@@ -33,7 +37,7 @@ header{
 
 .slogan{
     align-self: center;
-    margin-bottom: 20%;
+    margin-top: 20%;
 }
 
 h1{
@@ -51,7 +55,7 @@ h1{
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    border: 1px solid #e67e22;
+    border: 1px solid var(--laranja-claro);
     padding: 10px 30px;
     border-radius: 200px;
     transition: 0.3s;
@@ -59,15 +63,15 @@ h1{
 }
 
 .btn-full{
-    background-color: #e67e22;
+    background-color: var(--laranja-claro);
     margin-right: 15px;
 
 }
 
 .btn:hover,
 .btn:active{
-    background-color: #cf6d17;
-    border-color: #cf6d17;
+    background-color: var(--laranja);
+    border-color: var(--laranja);
 
 }
 
@@ -108,7 +112,7 @@ header ul li a:visited{
 
 header ul li a:hover,
 header ul li a:active{
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 2px solid var(--laranja-claro);
 
 }
 
@@ -132,7 +136,7 @@ h2::after{
     content: " ";
     height: 2px;
     width: 100px;
-    background-color: #e67e22;
+    background-color: var(--laranja-claro);
     display: block;
     margin: 0 auto;
     margin-top: 30px;
@@ -162,7 +166,7 @@ h2::after{
 }
 ion-icon{
     font-size:250%;
-    color: #e67e22;
+    color: var(--laranja-claro);
     margin-bottom: 5px;
 }
 h3{
@@ -226,11 +230,60 @@ h3{
 .section-pictures>figure>img{
     width:10%;
     object-fit: cover;
-    border:2px solid #e67e22;
+    border:2px solid var(--laranja-claro);
     border-radius: 10px;
     transition: width ease-in-out 0.5s;
 
 }
 .section-pictures>figure>img:hover{
     width:40%;
+}
+/***********************RODAPE***********************************************************/
+
+footer{
+    background-color: #333;
+    font-size: 80%;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+
+.footer-top{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-top ul{
+    display: flex;
+    list-style-type: none;
+    gap:20px;
+    
+}
+
+.footer-top ul a:link,.footer-top ul a:visited{
+    text-decoration:none;
+    color: #888;
+}
+
+.logo-instagram:hover{
+    color: #517fa4;
+}
+
+.logo-twitter:hover{
+    color:#00aced;
+}
+
+.logo-facebook:hover{
+    color: #3b5998;
+}   
+.logo-youtube:hover{
+    color:#ff0000;
+}
+.logo-youtube,.logo-twitter,.logo-facebook,.logo-instagram{
+    transition: color 0.2s;
+}
+.footer-bottom>p{
+    color:#888;
+    text-align: center;
+    margin-top: 20px;
 }
