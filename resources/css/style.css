@@ -115,7 +115,9 @@ header ul li a:active{
     border-bottom: 2px solid var(--laranja-claro);
 
 }
-
+.mobile-nav-icon:link,.mobile-nav-icon:visited{
+    display:none;
+}
 /**** Seção informações ****/
 .section-information{
     padding: 80px 0;
@@ -287,3 +289,18 @@ footer{
     text-align: center;
     margin-top: 20px;
 }
+
+@media only screen and (max-width: 743px){
+    .mobile-nav-icon:link,.mobile-nav-icon:visited{
+        display:block;
+        
+    }
+    header nav ul{
+        flex-direction: column;
+        align-items:center;
+        gap:15px;
+        display:none;
+    }
+}
+
+
