@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/style.min.css">
     <title>Saúde no Prato</title>
 </head>
 <body>
@@ -72,7 +72,13 @@
     <section class="section-gallery" id="section-gallery">
         <ul>
             <li>
-                <figure><img src="resources/img/1.jpg" alt="Pizza vegana"></figure>
+                <figure>
+                    <picture>
+                        <!-- <source media="(min-width: 800px)" srcset="resources/img/woker.jpg">
+                        <source media="(min-width: 650px)" srcset="resources/img/wrtiting.jpg"> -->
+                        <img src="resources/img/1.jpg" alt="Pizza vegana">
+                    </picture>
+                </figure>
             </li>
             <li>
                 <figure><img src="resources/img/2.jpg" alt="Omelete com legumes"></figure>
@@ -142,6 +148,6 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="resources/js/script.js"></script>
+    <script src="resources/js/script.min.js"></script>
 </body>
 </html>
